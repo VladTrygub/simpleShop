@@ -1,0 +1,1 @@
+<div>product page by category :: <?= $category ?></div>
