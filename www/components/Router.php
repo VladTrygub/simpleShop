@@ -43,12 +43,9 @@ class Router {
 
         $controller = new $controllerName();
         $result = call_user_func_array(array($controller, $actionName), $params);
-        $this->logger->debug(" :: \$result :: $result");
         
         if ($result != null)
           break;
-
-        $this->logger->debug(" :: \$result == null \n");
       }
     }
   }
