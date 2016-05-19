@@ -9,7 +9,7 @@
     <a href="contact"><div>Contact Us</div></a>
   </div>
   <div id="auth">
-    <a href="login"><div>Login</div></a>
+    <a href="log"><div>Login</div></a>
     <a href="register"><div>Register</div></a>
   </div>
 </header>
